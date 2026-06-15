@@ -1,0 +1,19 @@
+{
+  "symbol": "BTCUSDT",
+  "market": "Binance USDT-M perpetual futures",
+  "interval": "15m",
+  "timezone": "UTC",
+  "first_open_time": "2024-01-01T00:00:00Z",
+  "last_open_time": "2026-06-07T23:45:00Z",
+  "kline_rows": 85344,
+  "funding_rows": 2667,
+  "gaps": 0,
+  "source_endpoints": [
+    "https://fapi.binance.com/fapi/v1/klines",
+    "https://fapi.binance.com/fapi/v1/fundingRate"
+  ],
+  "uncompressed_sha256": {
+    "BTCUSDT-15m.csv": "ee00b3b8306989dab2ae1f949fae89febd4f9b28ba069587a00660a0bf832af7",
+    "BTCUSDT-funding.csv": "7f8eeaaae236a9eb5b53cbc70371b0fa4029d52aedf46c930588d55da642370f"
+  }
+}
